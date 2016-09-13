@@ -1,0 +1,38 @@
+.search {
+  background-color: lightgray;
+  height: 70px;
+  border: 1px solid navy;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  font-size: 35px;
+  color: blue;
+  position: relative;
+}
+h2 {
+  display: block;
+  background-color: blue;
+  font-size: 50px;
+    margin-left: 50px;
+}
+
+ul li {
+  margin-right: 25px;
+  background-color: red;
+  display: inline-block;
+  list-style: none;
+  bottom: -25px; /* why is this not working */
+}
+
+nav p {
+  background-color: white;
+  position: absolute;
+  bottom: -25px;
+  left: 10px;
+}
+
+form {
+    background-color: pink;
+  height: 50px;
+  margin-left: 50px;
+}
